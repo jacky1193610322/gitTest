@@ -17,6 +17,7 @@ call vundle#rc()
 " Bundle 'majutsushi/tagbar'
 " Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
+Plugin 'grep.vim' 
 "Bundle 'pbrisbin/vim-mkdir'
 "Bundle 'scrooloose/syntastic'
 "Bundle 'slim-template/vim-slim'
@@ -31,7 +32,8 @@ Bundle 'kien/ctrlp.vim'
 "Bundle 'vim-scripts/matchit.zip'
 "Bundle 'vim-scripts/tComment'
 "Bundle 'mattn/emmet-vim'
-"'Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdtree'
+Bundle 'jistr/vim-nerdtree-tabs'
 "'Bundle 'Lokaltog/vim-powerline'
 "'Bundle 'godlygeek/tabular'
 "'Bundle 'msanders/snipmate.vim'
@@ -52,3 +54,4 @@ Bundle 'kien/ctrlp.vim'
 
 filetype on
 let g:ctrlp_regexp = 1
+" let g:nerdtree_tabs_open_on_console_startup=1
