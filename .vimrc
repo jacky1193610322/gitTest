@@ -1,7 +1,6 @@
 " Configuration file for vim
 set modelines=0		" CVE-2007-2438
 
-
 " Normally we use vim-extensions. If you want true vi-compatibility
 " remove change the following statements
 set nocompatible	" Use Vim defaults instead of 100% vi compatibility
@@ -79,3 +78,7 @@ if exists("+showtabline")
     set tabline=%!MyTabLine()
 endif
 """"""""""""""""""""" vim标签配置 end """"""""""""""""""""""
+set encoding=utf-8
+"可以使用系统的粘贴板"
+set clipboard=unnamed
+let g:Powerline_symbols='fancy'
