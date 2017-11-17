@@ -16,3 +16,4 @@ fixture2 commit 1
 fixture commit2
 fixture commit 3
 fixture commit 4
+sh
